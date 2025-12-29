@@ -36,3 +36,18 @@ spi-master-slave-verilog/
 ├── waveforms/  # Simulation waveforms & screenshots
 ├── docs/       # Architecture diagrams, FSMs, reports
 └── README.md
+
+---
+
+## 📁 Project Structure
+
+```text
+spi-master-slave-verilog/
+│
+├── rtl/        # RTL source files (SPI Master & Slave)
+├── tb/         # Testbenches
+├── sim/        # ModelSim simulation workspace
+├── waveforms/  # Simulation waveforms & screenshots
+├── docs/       # Architecture diagrams, FSMs, reports
+└── README.md
+
