@@ -4,6 +4,7 @@ A complete RTL design and verification of the SPI (Serial Peripheral Interface) 
 
 ![Image](https://github.com/user-attachments/assets/44c73bee-7c67-453b-9b87-dd7b87606678)
 
+
 ---
 
 ## 🔍 Project Overview
