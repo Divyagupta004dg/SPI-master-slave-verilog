@@ -40,7 +40,7 @@ spi-master-slave-verilog/
 ├── docs/       # Architecture diagrams, FSMs, reports
 └── README.md
 
-
+```
 ---
 
 ## 🧾 Language Used
