@@ -1,0 +1,11 @@
+# ModelSim / simulation generated files
+work/
+sim/work/
+*.wlf
+*.log
+*.mpf
+transcript
+
+# OS files
+.DS_Store
+Thumbs.db
