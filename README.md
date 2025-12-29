@@ -53,3 +53,23 @@ SystemVerilog features used:
 - `always_ff` and `always_comb` constructs
 - Strongly-typed FSM control logic
 
+
+---
+
+## 🧠 RTL Design Status
+
+- Language: **SystemVerilog**
+- Design Style: **FSM-based control logic**
+- Tool: **ModelSim (Intel FPGA Edition)**
+- Compilation: ✅ Clean (0 errors, 0 warnings)
+
+### FSM States Implemented
+- `IDLE` – Wait for start signal
+- `LOAD` – Load transmit data
+- `TRANSFER` – Shift out 8-bit data on MOSI
+- `DONE` – Transaction complete, return to IDLE
+
+The RTL has been successfully compiled using:
+```bash
+vlog -sv rtl/spi_master.v
+
