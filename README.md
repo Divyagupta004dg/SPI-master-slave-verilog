@@ -2,6 +2,7 @@
 
 A complete RTL design and verification of the SPI (Serial Peripheral Interface) Master–Slave protocol using **SystemVerilog**, simulated with **ModelSim** and structured for industry-style documentation.
 
+![Image](https://github.com/user-attachments/assets/f7ce9016-a2ca-4a65-bf78-7694217e82c6)
 ---
 
 ## 🔍 Project Overview
@@ -26,18 +27,6 @@ This project implements:
 
 ---
 
-## 📁 Project Structure
-
-spi-master-slave-verilog/
-│
-├── rtl/        # RTL source files (SPI Master & Slave)
-├── tb/         # Testbenches
-├── sim/        # ModelSim simulation workspace
-├── waveforms/  # Simulation waveforms & screenshots
-├── docs/       # Architecture diagrams, FSMs, reports
-└── README.md
-
----
 
 ## 📁 Project Structure
 
