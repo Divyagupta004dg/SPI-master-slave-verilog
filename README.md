@@ -51,3 +51,16 @@ spi-master-slave-verilog/
 ├── docs/       # Architecture diagrams, FSMs, reports
 └── README.md
 
+
+---
+
+## 🧾 Language Used
+
+This project is written in **SystemVerilog**, not legacy Verilog.
+
+SystemVerilog features used:
+- `logic` data types
+- `typedef enum` for FSM state encoding
+- `always_ff` and `always_comb` constructs
+- Strongly-typed FSM control logic
+
