@@ -2,7 +2,7 @@
 
 A complete RTL design and verification of the SPI (Serial Peripheral Interface) Master–Slave protocol using **SystemVerilog**, simulated with **ModelSim** and structured for industry-style documentation.
 
-![Image](https://github.com/user-attachments/assets/0a9610ec-b7f2-4c4b-ba40-b28320712394)
+![Image](https://github.com/user-attachments/assets/f7ce9016-a2ca-4a65-bf78-7694217e82c6)
 ---
 
 ## 🔍 Project Overview
