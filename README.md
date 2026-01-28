@@ -73,3 +73,15 @@ The RTL has been successfully compiled using:
 ```bash
 vlog -sv rtl/spi_master.v
 
+
+## 🔍 Functional Simulation (ModelSim)
+
+The SPI Master RTL was verified using ModelSim.
+The waveform below shows correct operation of:
+- FSM state transitions
+- SPI clock (SCLK)
+- MOSI shifting
+- Chip Select (CS)
+- DONE flag
+
+![SPI Master ModelSim Waveform](waveforms/modelsim_spi_master_waveform.png)
