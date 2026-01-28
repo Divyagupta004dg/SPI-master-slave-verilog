@@ -72,7 +72,7 @@ SystemVerilog features used:
 The RTL has been successfully compiled using:
 ```bash
 vlog -sv rtl/spi_master.v
-
+```
 
 ## 🔍 Functional Simulation (ModelSim)
 
@@ -85,3 +85,70 @@ The waveform below shows correct operation of:
 - DONE flag
 
 ![SPI Master ModelSim Waveform](waveforms/modelsim_spi_master_waveform.png)
+
+✅ What this waveform proves (signal-by-signal)
+
+I’ll map it directly to your screenshot.
+
+🟢 start
+
+Goes high once
+
+FSM leaves IDLE
+✔️ Correct trigger behavior
+
+🟢 cs (chip select)
+
+HIGH → LOW → HIGH
+
+LOW during transfer
+✔️ Active-low CS is perfect
+
+🟢 sclk
+
+Toggles only when cs = 0
+
+Clean, uniform clock pulses
+✔️ SPI clock divider is working
+
+🟢 mosi
+
+Changes only on clock edges
+
+Bit stream visible
+✔️ Data shifting is correct
+
+🟢 tx_data = 10100101 (0xA5)
+
+Matches MOSI bit pattern
+✔️ Correct transmission
+
+🟢 dbg_shift_reg
+
+You can clearly see:
+
+10100101
+01001010
+10010100
+00101000
+...
+
+
+✔️ Left-shift each bit → PERFECT
+
+🟢 dbg_bit_cnt
+000 → 001 → 010 → ... → 111
+
+
+✔️ Exactly 8 bits transferred
+
+🟢 dbg_state
+IDLE → LOAD → TRANSFER → DONE → IDLE
+
+
+✔️ FSM sequencing is textbook-correct
+
+🟢 done
+
+Pulses HIGH at the end
+✔️ Transfer completion flag works
