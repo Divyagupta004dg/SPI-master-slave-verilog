@@ -84,7 +84,8 @@ The waveform below shows correct operation of:
 - Chip Select (CS)
 - DONE flag
 
-![SPI Master ModelSim Waveform](waveforms/modelsim_spi_master_waveform.png)
+<img width="2873" height="1707" alt="image" src="https://github.com/user-attachments/assets/759529a2-c850-4442-9354-e369a4c4fa73" />
+
 
 ✅ What this waveform proves (signal-by-signal)
 
@@ -153,10 +154,4 @@ IDLE → LOAD → TRANSFER → DONE → IDLE
 Pulses HIGH at the end
 ✔️ Transfer completion flag works
 
-### FSM States Implemented
-- `IDLE` – Wait for start signal
-- `LOAD` – Load transmit data
-- `TRANSFER` – Shift out 8-bit data on MOSI
-- `DONE` – Transaction complete, return to IDLE
 
-The RTL has been successfully compiled using:
