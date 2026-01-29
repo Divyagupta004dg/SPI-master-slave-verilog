@@ -1,0 +1,176 @@
+Mon Dec 29 15:58:29 IST 2025
+Trace back: ** UI-Msg: (vish-7) Failed to open mpf file "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+
+    while executing
+"ProjectWrite {C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf} 6 work unused {} {} {} 0 1 {} ForceSoftPaths 0 ProjectStatusDe..."
+    ("eval" body line 1)
+    invoked from within
+"eval [linsert $ProjectWriteArgs 0 ProjectWrite ]"
+    (procedure "Project::saveProjectSpecificSettings" line 55)
+    invoked from within
+"Project::saveProjectSpecificSettings"
+    (procedure "Project::saveProjectData" line 5)
+    invoked from within
+"Project::saveProjectData"
+    (procedure "Project::readProjectSpecificSettings" line 24)
+    invoked from within
+"Project::readProjectSpecificSettings $new_project"
+    (procedure "Project::loadSettings" line 76)
+    invoked from within
+"Project::loadSettings $new_project"
+    (procedure "Project::load" line 154)
+    invoked from within
+"Project::load $projfilename 1"
+    (procedure "Project::create" line 153)
+    invoked from within
+"Project::create $Project(dlg_proj_location) $Project(CurProj_NewName) $Project(dlg_proj_libname) $Project(dlg_initial_ini) $Project(dlg_ini_copy)"
+    (procedure "Project::applyCreate" line 3)
+    invoked from within
+"Project::applyCreate .pcd"
+    invoked from within
+".pcd.bb.button0 invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .pcd.bb.button0"
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {** UI-Msg: (vish-7) Failed to open mpf file "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+}
+  <1:C:/mtitcl/vsim/forms.tc_:1532: ::tk::dialog::error::bgerror {** UI-Msg: (vish-7) Failed to open mpf file "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+}
+Mon Dec 29 16:02:29 IST 2025
+Trace back: ** Warning: (vmap-14) Failed to open "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" specified by the MODELSIM environment variable.
+Invalid argument. (errno = EINVAL)
+** Error: (vmap-7) Failed to open ini file "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+child process exited abnormally
+    while executing
+"exec $vmap -quiet work $Project(CurProj_DefaultLib)"
+    (procedure "Project::create" line 158)
+    invoked from within
+"Project::create $Project(dlg_proj_location) $Project(CurProj_NewName) $Project(dlg_proj_libname) $Project(dlg_initial_ini) $Project(dlg_ini_copy)"
+    (procedure "Project::applyCreate" line 3)
+    invoked from within
+"Project::applyCreate .pcd"
+    invoked from within
+".pcd.bb.button0 invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .pcd.bb.button0"
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {** Warning: (vmap-14) Failed to open "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" specified by the MODELSIM environment variable.
+Invalid argument. (errno = EINVAL)
+** Error: (vmap-7) Failed to open ini file "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+child process exited abnormally}
+  <1:C:/mtitcl/vsim/forms.tc_:1532: ::tk::dialog::error::bgerror {** Warning: (vmap-14) Failed to open "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" specified by the MODELSIM environment variable.
+Invalid argument. (errno = EINVAL)
+** Error: (vmap-7) Failed to open ini file "C:/Users/ASUS/OneDrive/Desktop/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+child process exited abnormally}
+Mon Dec 29 17:28:40 IST 2025
+Trace back: ** UI-Msg: (vish-7) Failed to open mpf file "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+
+    while executing
+"ProjectWrite {C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf} 6 work unused {} {} {} 0 1 {} ForceSoftPaths 0 ProjectStatusDelay 5000 VERILOG_Dou..."
+    ("eval" body line 1)
+    invoked from within
+"eval [linsert $ProjectWriteArgs 0 ProjectWrite ]"
+    (procedure "Project::saveProjectSpecificSettings" line 55)
+    invoked from within
+"Project::saveProjectSpecificSettings"
+    (procedure "Project::saveProjectData" line 5)
+    invoked from within
+"Project::saveProjectData"
+    (procedure "Project::readProjectSpecificSettings" line 24)
+    invoked from within
+"Project::readProjectSpecificSettings $new_project"
+    (procedure "Project::loadSettings" line 76)
+    invoked from within
+"Project::loadSettings $new_project"
+    (procedure "Project::load" line 154)
+    invoked from within
+"Project::load $projfilename 1"
+    (procedure "Project::create" line 153)
+    invoked from within
+"Project::create $Project(dlg_proj_location) $Project(CurProj_NewName) $Project(dlg_proj_libname) $Project(dlg_initial_ini) $Project(dlg_ini_copy)"
+    (procedure "Project::applyCreate" line 3)
+    invoked from within
+"Project::applyCreate .pcd"
+    invoked from within
+".pcd.bb.button0 invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .pcd.bb.button0"
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {** UI-Msg: (vish-7) Failed to open mpf file "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+}
+  <1:eval:1: ::tk::dialog::error::bgerror {** UI-Msg: (vish-7) Failed to open mpf file "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+}
+Mon Dec 29 17:29:58 IST 2025
+Trace back: ** Warning: (vmap-14) Failed to open "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" specified by the MODELSIM environment variable.
+Invalid argument. (errno = EINVAL)
+** Error: (vmap-7) Failed to open ini file "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+child process exited abnormally
+    while executing
+"exec $vmap -quiet work $Project(CurProj_DefaultLib)"
+    (procedure "Project::create" line 158)
+    invoked from within
+"Project::create $Project(dlg_proj_location) $Project(CurProj_NewName) $Project(dlg_proj_libname) $Project(dlg_initial_ini) $Project(dlg_ini_copy)"
+    (procedure "Project::applyCreate" line 3)
+    invoked from within
+"Project::applyCreate .pcd"
+    invoked from within
+".pcd.bb.button0 invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .pcd.bb.button0"
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {** Warning: (vmap-14) Failed to open "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" specified by the MODELSIM environment variable.
+Invalid argument. (errno = EINVAL)
+** Error: (vmap-7) Failed to open ini file "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+child process exited abnormally}
+  <1:C:/mtitcl/vsim/forms.tc_:1532: ::tk::dialog::error::bgerror {** Warning: (vmap-14) Failed to open "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" specified by the MODELSIM environment variable.
+Invalid argument. (errno = EINVAL)
+** Error: (vmap-7) Failed to open ini file "C:/project/spi-master-slave-verilog/sim/spi_sim
+.mpf" in write mode.
+Invalid argument. (errno = EINVAL)
+child process exited abnormally}
