@@ -155,3 +155,13 @@ Pulses HIGH at the end
 ✔️ Transfer completion flag works
 
 
+
+---
+
+## FPGA Synthesis using Vivado
+
+The SPI Master RTL design was synthesized and analyzed using Xilinx Vivado
+targeting an Artix-7 FPGA.
+
+➡️ Detailed Vivado synthesis documentation is available here:  
+[vivado/README_VIVADO.md](vivado/README_VIVADO.md)
