@@ -165,3 +165,10 @@ targeting an Artix-7 FPGA.
 
 ➡️ Detailed Vivado synthesis documentation is available here:  
 [vivado/README_VIVADO.md](vivado/README_VIVADO.md)
+
+## 🛠 Tools Used
+
+- **SystemVerilog**
+- **ModelSim Intel FPGA Starter Edition**
+- **Vivado ML Standard (for FPGA flow – optional)**
+- **Git & GitHub**
