@@ -41,9 +41,30 @@ The following artifacts are generated using Vivado:
 - Resource Utilization Report
 - Timing Summary Report
 
-> Screenshots of the above will be added in the next commit.
+> files are added of the above.
 
 ---
+## Implementation, Timing & Bitstream
+
+The SPI Master design was fully implemented on an Artix-7 FPGA.
+
+### Implementation
+- Placement and routing completed successfully
+- No routing errors reported
+
+### Timing Analysis
+- Worst Negative Slack (WNS): ≥ 0 ns
+- All setup and hold timing constraints met
+
+### Resource Utilization
+- Low LUT and FF utilization
+- No BRAM or DSP usage
+- Efficient mapping for small control-oriented design
+
+### Bitstream Generation
+A valid FPGA bitstream was generated successfully, confirming that the
+design is hardware-ready even without a physical board.
+
 
 ## Conclusion
 This completes the RTL-to-FPGA synthesis flow for the SPI Master module.
